@@ -1,13 +1,14 @@
 body {
     border: 1px solid black;
-    width: 90%;
-    height: 800px;
+    width: 99%;
+    height: 1500px; ;
+    color: #ededed;
+    background-color: rebeccapurple 
 }
 .topBar{
     position: absolute;
     padding-top:17px;
     width:90%;
-    background: transparent;
     display: flex;
     justify-content: space-between;
     z-index: 100;
@@ -17,8 +18,8 @@ body {
     left: 10px;
 }
 .navbar a {
-    font-size:20px;
-    color: rgb(2, 2, 2);
+    font-size:30px;
+    color: #ededed ;
     text-decoration: none;
     margin-right: 40px;
     cursor: pointer;
@@ -26,69 +27,77 @@ body {
 .navbar a:hover {
     text-decoration: underline;
 }
-.pic{
-    margin-top: 180px;
+video{
+    margin-top: 140px;
     margin-left: 450px;
     width: 300px;
 }
 aside{
-    width: 300px;
+    width: 400px;
     margin: 10px;
     padding: 5px;
     float: left;
 }
 .circle-image{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     position: absolute; 
-    top: 76%;
+    top: 100%;
     left: 70%;
     transform: translate(-50%, -50%);
 }
 hr{
     border: 1px solid black;
     width: 100%;
-    top: 100%;
+    top: 145%;
     
 }
 .link{
     position: absolute;
     left: 35%;
-    top: 97%
+    top: 150%;
+
 }
 .nav a:hover{
     text-decoration: underline;
 }
 .adress{
     position: absolute;
-    left: 20px
+    left: 20px;
+    color: #ededed;
 }
 .facebook{
     position: absolute;
     left: 20px;
-    top: 115%
+    top: 200%;
+    color: #ededed;
+
 }
 .instagram{
     position: absolute;
     left: 90px;
-    top: 115%
+    top: 200%;
+    color: #ededed;
 }
 .twitter{
     position: absolute;
     left: 160px;
-    top: 115%;
+    top: 200%;
+    color: #ededed;
 }
 .map{
     position: absolute;
     left: 60%;
-    top: 105%;
+    top: 180%;
     height: 100px;
 }
 .number{
     position: absolute;
     left: 230px;
-    top: 115%;
+    top: 200%;
+};
 
-}
+
+
