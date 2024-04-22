@@ -1,7 +1,7 @@
 body {
     border: 1px solid black;
     width: 99%;
-    height: 1500px; ;
+    height: 1000px; 
     background-color: rebeccapurple 
 }
 .topBar{
@@ -43,8 +43,8 @@ aside{
     height: 300px;
     object-fit: cover;
     position: absolute; 
-    top: 100%;
-    left: 70%;
+    top: 50%;
+    left: 80%;
     transform: translate(-50%, -50%);
 }
 hr{
@@ -56,7 +56,7 @@ hr{
 .link{
     position: absolute;
     left: 35%;
-    top: 150%;
+    top: 100%;
 
 }
 .nav a:hover{
@@ -70,33 +70,33 @@ hr{
 .facebook{
     position: absolute;
     left: 20px;
-    top: 200%;
+    top: 120%;
     color: #ededed;
 
 }
 .instagram{
     position: absolute;
     left: 90px;
-    top: 200%;
+    top: 120%;
     color: #ededed;
 }
 .twitter{
     position: absolute;
     left: 160px;
-    top: 200%;
+    top: 120%;
     color: #ededed;
 }
 .map{
     position: absolute;
-    left: 60%;
-    top: 180%;
+    left: 80%;
+    top: 120%;
     height: 100px;
 }
 .number{
     position: absolute;
     left: 230px;
-    top: 200%;
-};
+    top: 120%;
+}
 
 
 
