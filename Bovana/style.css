@@ -1,0 +1,94 @@
+body {
+    border: 1px solid black;
+    width: 90%;
+    height: 800px;
+}
+.topBar{
+    position: absolute;
+    padding-top:17px;
+    width:90%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    margin-top: 0%;
+}
+.logo{
+    left: 10px;
+}
+.navbar a {
+    font-size:20px;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.pic{
+    margin-top: 180px;
+    margin-left: 450px;
+    width: 300px;
+}
+aside{
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+.circle-image{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute; 
+    top: 76%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+hr{
+    border: 1px solid black;
+    width: 100%;
+    top: 100%;
+    
+}
+.link{
+    position: absolute;
+    left: 35%;
+    top: 97%
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.adress{
+    position: absolute;
+    left: 20px
+}
+.facebook{
+    position: absolute;
+    left: 20px;
+    top: 115%
+}
+.instagram{
+    position: absolute;
+    left: 90px;
+    top: 115%
+}
+.twitter{
+    position: absolute;
+    left: 160px;
+    top: 115%;
+}
+.map{
+    position: absolute;
+    left: 60%;
+    top: 105%;
+    height: 100px;
+}
+.number{
+    position: absolute;
+    left: 230px;
+    top: 115%;
+
+}
